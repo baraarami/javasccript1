@@ -31,10 +31,11 @@ function userName(firstName , secondName , thirdName)
 }
 userName();
 
-var Number= prompt("Please Enter a number");
+var Number= prompt("Please Enter a number of photo you wont to see of javascript !");
 
 var char1=0;
 var char2=0;
+
 if (char1===char2){
     console.log("similler movie");
 } else{
@@ -42,11 +43,11 @@ if (char1===char2){
 }
 console.log(username);
 
+
 //function showEmage (){
   //  return document.getElementById("import");
 //}
 //showEmage();
-
 
 
 for (var counter=1 ; counter < Number && counter < 10 ; counter++) {
