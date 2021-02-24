@@ -10,6 +10,7 @@ var username="bara'a";
 
 if (age<40){
      alert("you are below the legal age !");
+     
     console.log(" first time !");
 }
 
