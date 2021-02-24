@@ -27,8 +27,12 @@ function userName(firstName , secondName , thirdName)
 {
     prompt("please enter your first name ");
     prompt("please enter your second name ");
+
 }
 userName();
+
+var Number= prompt("Please Enter a number");
+
 var char1=0;
 var char2=0;
 if (char1===char2){
@@ -43,13 +47,14 @@ console.log(username);
 //}
 //showEmage();
 
-function showEmage (){
-    for(i = 0; i < 4 ; i++){
 
-        document.write('<img src="http://radicalhub.com/wp-content/uploads/2018/07/javascript.jpg"/> ')
-    }
+
+for (var counter=1 ; counter < Number && counter < 10 ; counter++) {
+
+    document.write('<img src="http://radicalhub.com/wp-content/uploads/2018/07/javascript.jpg" />');
+    document.write(counter);
+
 }
-showEmage();
 
 
 
