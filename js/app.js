@@ -61,6 +61,19 @@ for (var counter=1 ; counter < Number && counter < 10 ; counter++) {
 }
 
 
+//function showEmage (){
+  //  return document.getElementById("import");
+//}
+//showEmage();
+
+
+for (var counter=1 ; counter < Number && counter < 10 ; counter++) {
+
+    document.write('<img src="http://radicalhub.com/wp-content/uploads/2018/07/javascript.jpg" />');
+    document.write(counter);
+
+}
+
 
 
 
