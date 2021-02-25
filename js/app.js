@@ -61,10 +61,13 @@ for (var counter=1 ; counter < Number && counter < 10 ; counter++) {
 }
 
 
-//function showEmage (){
-  //  return document.getElementById("import");
-//}
-//showEmage();
+function greatFunction(name)
+{
+    return "welcome" + name;
+}
+var greatFunction=greatFunction("bara'a");
+console.log(greatFunction);
+
 
 
 for (var counter=1 ; counter < Number && counter < 10 ; counter++) {
